@@ -6,7 +6,7 @@ This project is designed to simulate the workflow of a **SOC Level 1 Analyst** w
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The primary objective of this lab is to understand and demonstrate how a SOC analyst:
 
