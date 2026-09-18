@@ -1,4 +1,4 @@
-# SOC Sentinel: SIEM-Based Log Monitoring & Security Incident Investigation Lab
+# SIEM-Based Log Monitoring & Security Incident Investigation Lab
 
 A hands-on **Security Operations Center (SOC) laboratory** focused on SIEM deployment, centralized log monitoring, security event analysis, detection engineering, alert triage, incident investigation, IOC analysis, and basic incident response.
 
