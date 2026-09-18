@@ -1,5 +1,4 @@
 # SIEM-Based-Log-Monitoring-Security-Incident-Investigation-Lab
-
 SOC-Sentinel-SIEM-Log-Monitoring
 │
 ├── README.md
