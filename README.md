@@ -571,8 +571,8 @@ No unauthorized systems, networks, accounts, or data are targeted.
 
 ---
 
-## 📌 Project Status
+## Project Status
 
-**Status:** 🚧 In Progress
+**Status:** In Progress
 
 This repository will be updated as additional SIEM configurations, log sources, detection rules, investigations, dashboards, and SOC reports are completed.
