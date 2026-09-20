@@ -567,6 +567,7 @@ No unauthorized systems, networks, accounts, or data are targeted.
 # Author
 
 **Yash Shrivastava**
+
 **Focus:** Cybersecurity | SOC Analyst | SIEM | Security Monitoring | Incident Investigation
 
 ---
