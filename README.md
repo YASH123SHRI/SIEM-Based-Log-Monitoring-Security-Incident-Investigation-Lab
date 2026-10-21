@@ -463,7 +463,7 @@ SOC-Sentinel-SIEM-Log-Monitoring
 │   ├── hash-analysis.md
 │   └── virustotal-investigation.md
 │
-├── 08-SOC-Reports
+└── 08-SOC-Reports
     ├── incident-report-01.md
     ├── incident-report-02.md
     ├── incident-report-03.md
