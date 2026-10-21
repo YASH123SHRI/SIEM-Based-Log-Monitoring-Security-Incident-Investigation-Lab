@@ -150,6 +150,7 @@ These are starting searches, not complete brute-force detections. A production d
 - [ ] Document evidence and recommended next steps.
 
 ## 9. Evidence and Screenshots
+<img width="1302" height="833" alt="image" src="https://github.com/user-attachments/assets/824ed9eb-7427-45a5-9b95-75907af0113a" />
 
 
 Only add screenshots after capturing the corresponding events in your own lab.
