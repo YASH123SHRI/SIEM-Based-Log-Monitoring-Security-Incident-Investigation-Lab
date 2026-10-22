@@ -150,9 +150,9 @@ These are starting searches, not complete brute-force detections. A production d
 - [ ] Document evidence and recommended next steps.
 
 ## 9. Evidence and Screenshots
-<img width="1302" height="833" alt="image" src="https://github.com/user-attachments/assets/824ed9eb-7427-45a5-9b95-75907af0113a" />
+<img width="1301" height="316" alt="image" src="https://github.com/user-attachments/assets/dcf85ca8-5121-4a4b-a21d-67692c5ba687" />
 
-<img width="1305" height="543" alt="image" src="https://github.com/user-attachments/assets/d68d3210-9f2f-4880-84e6-15464eef9659" />
+<img width="1307" height="325" alt="image" src="https://github.com/user-attachments/assets/985a8c97-df61-4ce5-9579-1a5b5fa40ea0" />
 
 <img width="1296" height="282" alt="image" src="https://github.com/user-attachments/assets/869950b2-c545-49ae-b195-c887646c6972" />
 
