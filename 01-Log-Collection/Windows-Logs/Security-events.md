@@ -152,6 +152,12 @@ These are starting searches, not complete brute-force detections. A production d
 ## 9. Evidence and Screenshots
 <img width="1302" height="833" alt="image" src="https://github.com/user-attachments/assets/824ed9eb-7427-45a5-9b95-75907af0113a" />
 
+<img width="1305" height="543" alt="image" src="https://github.com/user-attachments/assets/d68d3210-9f2f-4880-84e6-15464eef9659" />
+
+<img width="1296" height="282" alt="image" src="https://github.com/user-attachments/assets/869950b2-c545-49ae-b195-c887646c6972" />
+
+<img width="1307" height="315" alt="image" src="https://github.com/user-attachments/assets/cf44dfab-2bbc-46e0-b412-1dc9c94ca8c7" />
+
 
 Only add screenshots after capturing the corresponding events in your own lab.
 
