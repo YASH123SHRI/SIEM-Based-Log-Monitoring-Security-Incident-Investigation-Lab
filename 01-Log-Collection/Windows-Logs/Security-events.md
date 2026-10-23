@@ -160,6 +160,30 @@ These are starting searches, not complete brute-force detections. A production d
 
 <img width="1308" height="301" alt="image" src="https://github.com/user-attachments/assets/e2d131d9-c17f-4a93-9c47-fe4d3db840a1" />
 
+# Windows Authentication Event Investigation
+
+## Objective
+Examine Windows Security authentication events.
+
+## Events Reviewed
+- Event ID 4624: Successful logon
+- Event ID 4625: Failed logon
+- Event ID 4688: New Process created
+- Event ID 1102: Security audit log cleared 
+
+## Evidence
+- Host: LAPTOP
+- Timestamp: October 2026
+- Account: Yash
+- Logon type: Undisclosed
+- Source address: Microsoft Windows Security
+
+## Initial Assessment
+All the activities are found to be as usual and regular.
+
+
+## Conclusion
+The event appears expected.
 
 ## 10. Key Takeaways
 
