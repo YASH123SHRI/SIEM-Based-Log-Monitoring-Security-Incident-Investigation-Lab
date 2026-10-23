@@ -168,6 +168,7 @@ Examine Windows Security authentication events.
 ## Events Reviewed
 - Event ID 4624: Successful logon
 - Event ID 4625: Failed logon
+- Event ID 4648: Logon using explicit credentials
 - Event ID 4688: New Process created
 - Event ID 1102: Security audit log cleared 
 
