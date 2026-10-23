@@ -160,7 +160,6 @@ These are starting searches, not complete brute-force detections. A production d
 
 <img width="1308" height="301" alt="image" src="https://github.com/user-attachments/assets/e2d131d9-c17f-4a93-9c47-fe4d3db840a1" />
 
-Only add screenshots after capturing the corresponding events in your own lab.
 
 ## 10. Key Takeaways
 
