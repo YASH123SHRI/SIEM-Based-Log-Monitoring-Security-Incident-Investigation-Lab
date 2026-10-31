@@ -229,6 +229,7 @@ index=windows sourcetype="WinEventLog:System" EventCode=7045
 
 <img width="1307" height="460" alt="image" src="https://github.com/user-attachments/assets/32788e82-21da-4088-b09b-65f36a4ce7d2" />
 
+<img width="1311" height="342" alt="image" src="https://github.com/user-attachments/assets/e2ba6bdd-6b63-4dd6-a9ff-0b2da7b61bb0" />
 
 
 ## 13. Key Takeaways
