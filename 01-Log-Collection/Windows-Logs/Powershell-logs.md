@@ -25,7 +25,7 @@ In this lab, we will:
 | Operating System | Windows 11 |
 | Log Collection Tool | Windows Event Viewer |
 | Command-Line Tool | Windows PowerShell |
-| SIEM | Splunk (optional for this stage) |
+| SIEM | Wazuh (optional for this stage) |
 | Log Source | Microsoft-Windows-PowerShell/Operational |
 | Administrator Access | Required for some logging configuration changes |
 
@@ -445,10 +445,6 @@ Recommended Actions:
 
 Save relevant screenshots under:
 
-`02-Log-Collection/Windows-Logs/screenshots/`
-
-Suggested screenshots:
-
 | Screenshot | What to Capture |
 |---|---|
 | 01-PowerShell-Operational-Log.png | PowerShell Operational log in Event Viewer |
@@ -460,7 +456,7 @@ Suggested screenshots:
 | 07-PowerShell-CSV-Export.png | Exported CSV file |
 | 08-Splunk-PowerShell-Search.png | PowerShell events in Splunk, if configured |
 
-Do not upload screenshots containing passwords, tokens, private IP information that you do not wish to disclose, personal files, or other sensitive information.
+<img width="1302" height="487" alt="image" src="https://github.com/user-attachments/assets/0260b2d8-def7-40c1-83b7-7d2829503ec7" />
 
 ## 12. Key Takeaways
 
