@@ -51,53 +51,7 @@ The primary log channel used in this lab is:
 
 **Important:** Event IDs must be interpreted with their provider, event details, timestamp, and surrounding activity. A PowerShell event does not automatically indicate malicious activity.
 
-## 4. Enabling PowerShell Logging
-
-PowerShell Script Block Logging is useful because it records the content of processed script blocks in the PowerShell Operational log.
-
-### Step 1: Open Local Group Policy Editor
-
-1. Press `Win + R`.
-2. Type `gpedit.msc`.
-3. Press Enter.
-4. Navigate to:
-
-`Computer Configuration → Administrative Templates → Windows Components → Windows PowerShell`
-
-5. Locate **Turn on PowerShell Script Block Logging**.
-6. Double-click the setting.
-7. Select **Enabled**.
-8. Click Apply and OK.
-
-If the setting offers an option to log script block invocation start and stop events, leave it disabled for this introductory lab.
-
-### Step 2: Enable Module Logging (Optional)
-
-1. In the same Windows PowerShell policy folder, locate **Turn on Module Logging**.
-2. Open the policy.
-3. Select **Enabled**.
-4. Under Options, enable logging for all modules using `*`.
-5. Click Apply and OK.
-
-Module logging can generate additional events. It is optional for this introductory exercise.
-
-### Step 3: Update Group Policy
-
-Open Command Prompt or PowerShell as Administrator and run:
-
-```powershell
-gpupdate /force
-```
-
-Wait for the policy update to complete.
-
-### Important Note for Windows Home Users
-
-If `gpedit.msc` is unavailable, your Windows edition may not include Local Group Policy Editor. Do not download unofficial policy-editor packages.
-
-You can complete the basic log exploration and harmless command-generation exercises without enabling additional policies. Script Block Logging may need to be enabled through an approved administrative configuration method.
-
-## 5. Locating PowerShell Logs in Event Viewer
+## 4. Locating PowerShell Logs in Event Viewer
 
 1. Press `Win + R`.
 2. Type:
@@ -125,7 +79,7 @@ Record the following details from the events:
 - Event details
 - Script block text, if available
 
-## 6. Practical Lab – Generate PowerShell Activity
+## 5. Practical Lab – Generate PowerShell Activity
 
 We will generate harmless PowerShell activity to understand how it appears in Windows logs.
 
@@ -242,7 +196,7 @@ If Windows blocks execution because of the current execution policy, do not chan
 7. Return to Event Viewer.
 8. Look for Event ID 4104 and inspect the script content.
 
-## 7. Retrieving PowerShell Logs Using PowerShell
+## 6. Retrieving PowerShell Logs Using PowerShell
 
 A SOC Analyst should be comfortable collecting event logs directly through PowerShell.
 
@@ -304,7 +258,7 @@ You can open it in Excel to review the collected events.
 
 **Handling note:** PowerShell logs may contain usernames, system details, command arguments, or other sensitive information. Review and redact sensitive information before uploading logs or screenshots to a public GitHub repository.
 
-## 8. Basic PowerShell Log Analysis in Splunk
+## 7. Basic PowerShell Log Analysis in Splunk
 
 If your Windows logs are being forwarded to Splunk, you can use Search Processing Language (SPL) to investigate PowerShell activity.
 
@@ -357,7 +311,7 @@ index=windows EventCode=4104
 
 **Note:** These searches are starting examples. Confirm your actual field names and data format using Splunk's Search interface before relying on them.
 
-## 9. SOC Investigation – What Should an Analyst Look For?
+## 8. SOC Investigation – What Should an Analyst Look For?
 
 When reviewing PowerShell logs, a SOC Analyst should investigate context rather than treating every command as suspicious.
 
@@ -382,7 +336,7 @@ Examples of useful investigation questions:
 - Check whether the activity is consistent with normal administrative work.
 - Avoid classifying an event as malicious based only on a command name.
 
-## 10. Practical SOC Investigation Exercise
+## 9. Practical SOC Investigation Exercise
 
 ### Scenario: Unusual PowerShell Script Execution
 
@@ -441,7 +395,7 @@ Recommended Actions:
 3.
 ```
 
-## 11. Screenshots to Capture for GitHub
+## 10. Screenshots to Capture for GitHub
 
 Save relevant screenshots under:
 
@@ -459,7 +413,7 @@ Save relevant screenshots under:
 
 <img width="1302" height="418" alt="image" src="https://github.com/user-attachments/assets/1397125b-3258-403a-8b58-649545a54df2" />
 
-## 12. Key Takeaways
+## 11. Key Takeaways
 
 After completing this lab, you should understand:
 
@@ -472,7 +426,7 @@ After completing this lab, you should understand:
 - How to begin analysing PowerShell activity using Splunk.
 - How to document PowerShell-related findings in a SOC investigation report.
 
-## 13. References
+## 12. References
 
 - Microsoft Learn – PowerShell Logging: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logging
 - Microsoft Learn – Group Policy Settings for PowerShell: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_group_policy_settings
