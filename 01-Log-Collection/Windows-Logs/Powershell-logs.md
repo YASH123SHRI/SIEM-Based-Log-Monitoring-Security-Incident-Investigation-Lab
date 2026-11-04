@@ -456,7 +456,8 @@ Save relevant screenshots under:
 | 07-PowerShell-CSV-Export.png | Exported CSV file |
 | 08-Splunk-PowerShell-Search.png | PowerShell events in Splunk, if configured |
 
-<img width="1302" height="487" alt="image" src="https://github.com/user-attachments/assets/0260b2d8-def7-40c1-83b7-7d2829503ec7" />
+
+<img width="1302" height="418" alt="image" src="https://github.com/user-attachments/assets/1397125b-3258-403a-8b58-649545a54df2" />
 
 ## 12. Key Takeaways
 
