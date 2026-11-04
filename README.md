@@ -50,15 +50,15 @@ The project focuses on practical SOC operations rather than only theoretical SIE
              ┌──────────────────────────────────┐
              │          Monitored Hosts         │
              │                                  │
-             │  ┌────────────┐  ┌────────────┐ │
-             │  │ Windows    │  │   Linux    │ │
-             │  │    Host    │  │     VM     │ │
-             │  └─────┬──────┘  └─────┬──────┘ │
-             │        │               │        │
-             │ Windows Logs       Linux Logs   │
-             │ Security           Auth         │
-             │ System             Syslog       │
-             │ PowerShell         SSH          │
+             │  ┌────────────┐  ┌────────────┐  │
+             │  │ Windows    │  │   Linux    │  │
+             │  │    Host    │  │     VM     │  │
+             │  └─────┬──────┘  └─────┬──────┘  │
+             │        │               │         │
+             │ Windows Logs       Linux Logs    │
+             │ Security           Auth          │
+             │ System             Syslog        │
+             │ PowerShell         SSH           │
              └────────┬───────────────┬─────────┘
                       │               │
                       └───────┬───────┘
@@ -68,23 +68,23 @@ The project focuses on practical SOC operations rather than only theoretical SIE
                     │        SIEM         │
                     │       Splunk        │
                     ├─────────────────────┤
-                    │ Log Collection       │
-                    │ Searching            │
-                    │ Analysis             │
-                    │ Detection             │
-                    │ Alerting              │
-                    │ Dashboards            │
+                    │ Log Collection      │
+                    │ Searching           │
+                    │ Analysis            │
+                    │ Detection           │
+                    │ Alerting            │
+                    │ Dashboards          │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
                     │     SOC Analyst     │
                     ├─────────────────────┤
-                    │ Alert Triage         │
-                    │ Investigation        │
-                    │ IOC Analysis         │
-                    │ Incident Response    │
-                    │ Documentation        │
+                    │ Alert Triage        │
+                    │ Investigation       │
+                    │ IOC Analysis        │
+                    │ Incident Response   │
+                    │ Documentation       │
                     └─────────────────────┘
 ```
 
