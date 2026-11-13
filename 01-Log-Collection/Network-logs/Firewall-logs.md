@@ -61,13 +61,21 @@ In this lab, we will:
 Network Traffic & Connections
 
 Event ID Description	When to Use It
+
 5156	Permitted Connection	Tracks when the firewall allows an application or port to connect.
+
 5157	Blocked Connection	Tracks when the firewall blocks an inbound or outbound connection.
+
 5152	Blocked Packet	Logs individual dropped packets (more granular than a full connection block).
+
 5154	Permitted Listen	Logs when an application is allowed to listen on a port for incoming connections.
+
 5155	Blocked Listen	Logs when an application is blocked from listening on a port.
+
 5158	Permitted Port Bind	Logs when an application is allowed to bind to a local port.
+
 5159	Blocked Port Bind	Logs when an application is blocked from binding to a local port.
+
 5031	Application Blocked	Logs when Windows Firewall specifically blocks an app from accepting incoming connections.
 
 
