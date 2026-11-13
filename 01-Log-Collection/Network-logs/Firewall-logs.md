@@ -47,9 +47,14 @@ In this lab, we will:
                              │
                 ┌────────────▼────────────┐
                 │      Ubuntu Endpoint    │
-                │                          │
-                │          UFW             │
-                │           │              │
-                │           ▼              │
-                │      /var/log/ufw.log    │
-                └──────────────────────────┘
+                │                         │
+                │          UFW            │
+                │           │             │
+                │           ▼             │
+                │      /var/log/ufw.log   │
+                └─────────────────────────┘
+```
+
+# 3. Screenshot
+
+<img width="1312" height="302" alt="image" src="https://github.com/user-attachments/assets/ff1514f2-aced-4aa8-bb89-b0c9d7ec09e0" />
