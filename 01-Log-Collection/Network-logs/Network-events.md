@@ -53,4 +53,4 @@ In this lab, we will:
                    │  Listening Services     │
                    │  Firewall Events        │
                    │  System Events          │
-                   └──────────────────────────┘
+                   └─────────────────────────┘
