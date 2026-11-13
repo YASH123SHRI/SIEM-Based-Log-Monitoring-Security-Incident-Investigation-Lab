@@ -1282,15 +1282,3 @@ After completing this lab, you should understand:
   https://documentation.wazuh.com/current/user-manual/capabilities/log-data-collection/configuration.html
 
 ---
-
-**Project:** SOC Sentinel – SIEM-Based Log Monitoring & Security Incident Investigation Lab
-
-**Section:** 02 – Log Collection
-
-**Category:** Linux Logs
-
-**Log Source:** `/var/log/auth.log`
-
-**SIEM:** Wazuh
-
-**Status:** In Progress – Update after completing the practical lab.
